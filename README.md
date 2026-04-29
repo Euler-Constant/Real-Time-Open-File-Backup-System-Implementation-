@@ -2,23 +2,17 @@
 
 > Personal Implementation of the techniques used in "Impact of File-Open Hook Points on Backup Ratio in ROFBS on XFS" (Higuchi et al., 2026)
 
----
-
 ## Paper
 
 **Title**: Impact of File-Open Hook Points on Backup Ratio in ROFBS on XFS
 **Authors**: Kosuke Higuchi, Ryotaro Kobayashi
 **Link**: https://arxiv.org/abs/2603.16364
 
----
-
 ## Summary of the notes (in rofbs.md)
 - **Paper summary**
 - **System analysis** 
 - **Personal conjecture**
 - **Insights found**
-
---- 
 
 ## TL;DR:
 
@@ -31,6 +25,6 @@ ROFBS takes a more active approach to the problem. Using eBPF hooks at the kerne
 Note: The experiment was performed in what was a hardened instance of Arch Linux. Some things may break if you test them in different environments (It might even break in the same environment, no less T_T)
 
 
-git clone https://github.com/Euler-Constant/Real-Time-Open-File-Backup-System-Implementation-.git
+Clone the repo: git clone https://github.com/Euler-Constant/Real-Time-Open-File-Backup-System-Implementation-.git
 
 Primarily for learning purposes.
